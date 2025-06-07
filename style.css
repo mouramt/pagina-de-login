@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: black url(https://i.pinimg.com/originals/d6/68/ab/d668abc72809303852c27275e6a56775.gif) no-repeat center center fixed;
+    background-size: cover;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffcc;
+    width: 320px;
+    text-align: center;
+    border: 1px solid #00ffcc;
+}
+
+.container h2 {
+    color: #00ffcc;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00ffcc;
+}
+
+.container p, a {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+input {
+    background: transparent;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    box-shadow: 0 0 5px #00ffcc;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+button {
+    background: transparent;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+    padding: 10px;
+    width: 60%;
+    margin-top: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+button:hover {
+    background: #00ffcc;
+    color: black;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#loginMsg, #cadMsg {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #00ffcc;
+}
+
+#loginMsg.success {
+    color: #00ffcc;
+}
+
+#loginMsg.error {
+    color: #ff4444;
+}
